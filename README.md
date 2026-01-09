@@ -4,12 +4,12 @@ Tic-Tac-Toe Game
 
 A simple tic-tac-toe game with a graphical interface in Python.
 
-Requirements ❗
+Requirements 
 Python 3.x
 tkinter (usually included in the standard Python distribution)
 Pillow (PIL)
 
-✅ bashpip install Pillow
+bashpip install Pillow
 
 Launch
 bashpython run.py
@@ -20,9 +20,9 @@ Selecting the first move (crosses or zeros)
 Smart AI with priority moves
 Restart option games
 
-🕹 Controls
+Controls
 
-🎉 Start the game
+Start the game
 
 Choose whether you want to play first
 Click on the cells to make moves
