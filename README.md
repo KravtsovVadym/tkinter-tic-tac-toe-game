@@ -1,6 +1,6 @@
 ## Tic-Tac-Toe Game / (GUI, AI opponent, tkinter)
 
-### This is a simple tic-tac-toe game with graphical interface created to consolidate practical experience in working with Python GUI programming, game logic implementation, and basic AI algorithms
+### This is a simple tic-tac-toe game with a graphical interface, designed to consolidate practical experience in Python, implementing game logic, and basic artificial intelligence algorithms.
 
 ![Screen game](images/Screen_game.jpg)
 
