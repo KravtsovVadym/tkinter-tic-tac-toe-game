@@ -1,29 +1,42 @@
-Tic-Tac-Toe Game
+## Tic-Tac-Toe Game / (GUI, AI opponent, tkinter)
+
+### This is a simple tic-tac-toe game with graphical interface created to consolidate practical experience in working with Python GUI programming, game logic implementation, and basic AI algorithms
 
 ![Screen game](images/Screen_game.jpg)
 
-A simple tic-tac-toe game with a graphical interface in Python.
+### In this project, the following were implemented:
+- Game logic for tic-tac-toe with win/draw detection
+- Graphical interface using tkinter
+- AI opponent with smart move prioritization
+- Player choice: play as X or O (first or second move)
+- Game restart functionality
+- Visual game board with clickable cells
+- Image handling using Pillow (PIL)
 
-Requirements 
-Python 3.x
-tkinter (usually included in the standard Python distribution)
-Pillow (PIL)
+### Start-up instructions
 
-bashpip install Pillow
-
-Launch
-bashpython run.py
-Features
-
-Play against the computer
-Selecting the first move (crosses or zeros)
-Smart AI with priority moves
-Restart option games
-
-Controls
-
-Start the game
-
-Choose whether you want to play first
-Click on the cells to make moves
-After finishing the game, you can start over
+1. **Clone the repository:**
+    ```bash
+    git clone <repo-url>
+    ```
+    ```bash
+    cd <tic-tac-toe-folder>
+    ```
+    ```bash
+    python -m venv .venv
+    ```
+    ```bash
+    source .venv/bin/activate # On Windows: .venv\Scripts\activate
+    ```
+    ```bash
+    pip install -r requirements.txt
+    ```
+2. **Run the game:**
+   ```bash
+   python run.py
+   ```
+3. **How to play:**
+   - Choose whether you want to play first (X) or second (O)
+   - Click on cells to make your moves
+   - AI will automatically make its moves
+   - After game ends, click restart to play again
