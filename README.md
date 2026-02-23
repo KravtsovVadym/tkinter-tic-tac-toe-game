@@ -17,7 +17,7 @@
 
 1. **Clone the repository:**
     ```bash
-    git clone <repo-url>
+    git clone https://github.com/KravtsovVadym/tkinter-tic-tac-toe-game
     ```
     ```bash
     cd <tic-tac-toe-folder>
