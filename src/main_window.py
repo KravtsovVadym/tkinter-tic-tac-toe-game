@@ -1,7 +1,12 @@
-from tkinter import ttk
+from tkinter import Tk
+from src.views import MFrame
 
 
 class RootWindow:
-    def __init__(self, root: ttk):
-        self.frm = ttk.Frame(root)
-        self.frm.grid()
+    def __init__(self, root: Tk):
+        root.title("Window")
+        root.geometry("400x400")
+        root.resizable(width=False, height=False)
+        MFrame(root)
+
+        self.root = root
