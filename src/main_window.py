@@ -1,3 +1,11 @@
+"""
+src/main_window.py
+
+RootWindow configures the main Tk window with title, size, and resize constraints.
+Acts as the entry point for the widget hierarchy, initializing and attaching
+MFrame as the primary layout container to the root Tk instance.
+"""
+
 from tkinter import Tk
 from src.views import MFrame
 
